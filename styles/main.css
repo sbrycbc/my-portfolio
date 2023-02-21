@@ -8211,6 +8211,11 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
+.rounded-profile {
+  border-radius: 0 30% !important;
+
+}
+
 .rounded-pill {
   border-radius: var(--bs-border-radius-pill) !important;
 }
@@ -10769,5 +10774,72 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+span:hover {
+  color:#0b5ed7;
+  font-size:larger;
+  animation:bubble 4s -1s infinite;
+  
+}
+
+@keyframes bubble {
+  0% {text-overflow: ellipsis;
+  text-shadow: 2px 2px red;
+  letter-spacing: 5px;
+  line-height:0.5;
+  font-size:3rem;
+  }
+  25% {text-overflow: clip;
+    text-shadow: 2px 2px blue;
+    letter-spacing: 2px;
+  line-height:0.7;
+  font-size:2.5rem;
+  }
+  50% {text-overflow: inherit;
+  text-shadow: 2px 2px #055160;
+  letter-spacing: -2px;
+  line-height:0.5;
+  font-size:2.8rem;
+}
+  75% {text-overflow: ellipsis;
+  text-shadow: 2px 2px #0b5ed7;
+  letter-spacing: 5px;
+  line-height:0.3;
+  font-size:2.5rem
+}
+  100% {text-overflow: inherit;
+  text-shadow:2px 2px gray;
+  letter-spacing: -2px;
+  line-height:0.5;
+  font-size:2rem;
+}
+}
+
+.border-profile {
+  border:1px solid lightgray;
+}
+
+.nav-hover,
+.footer-hover {
+  color:#6c757d !important;
+}
+
+.nav-hover:hover,
+.footer-hover:hover {
+  color:#0dcaf0 !important;
+}
+
+.position-fixed {
+  position:fixed;
+  top:6rem;
+  left:1rem;
+}
+
+@media screen and (min-width:0px) and (max-width:720px) {
+  .small-hidden {
+    display:none !important;
+  }
+}
+
 
 /*# sourceMappingURL=main.css.map */
