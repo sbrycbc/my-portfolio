@@ -8211,10 +8211,6 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-profile {
-  border-radius: 0 30% !important;
-
-}
 
 .rounded-pill {
   border-radius: var(--bs-border-radius-pill) !important;
@@ -10815,6 +10811,11 @@ span:hover {
 }
 }
 
+.rounded-profile {
+  border-radius: 0 30% !important;
+
+}
+
 .border-profile {
   border:1px solid lightgray;
 }
@@ -10839,7 +10840,73 @@ span:hover {
   .small-hidden {
     display:none !important;
   }
+
 }
+
+@media screen and (min-width:721px) and (max-width:1024px){
+
+
+
+}
+
+@media screen and (min-width:1025px) {
+  span {
+    font-size: 4rem !important;
+  }
+
+  .rounded-profile {
+    border-radius: 0 30% !important;
+    width:20rem !important;
+    height:25rem !important;
+  
+  }
+  span:hover {
+    color:#0b5ed7 !important;
+    font-size:larger !important;
+    animation:bubble-lg 4s -1s infinite !important;
+    
+  }
+
+  @keyframes bubble-lg {
+    0% {text-overflow: ellipsis;
+    text-shadow: 2px 2px red;
+    letter-spacing: 10px;
+    line-height:1;
+    font-size:4.5rem;
+    }
+    25% {text-overflow: clip;
+      text-shadow: 2px 2px blue;
+      letter-spacing: 2px;
+    line-height:0.7;
+    font-size:4.7rem;
+    }
+    50% {text-overflow: inherit;
+    text-shadow: 2px 2px #055160;
+    letter-spacing: -2px;
+    line-height:0.5;
+    font-size:4rem;
+  }
+    75% {text-overflow: ellipsis;
+    text-shadow: 2px 2px #0b5ed7;
+    letter-spacing: 5px;
+    line-height:0.3;
+    font-size:3.5rem
+  }
+    100% {text-overflow: inherit;
+    text-shadow:2px 2px gray;
+    letter-spacing: -2px;
+    line-height:0.5;
+    font-size:4.5rem;
+  }
+  }
+
+}
+
+.font-size-profile {
+  font-size:7rem !important;
+}
+
+
 
 
 /*# sourceMappingURL=main.css.map */
