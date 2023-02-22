@@ -13,7 +13,7 @@
 
     <nav class="navbar navbar-light bg-dark shadow-sm pt-3 mb-4">
         <div class="container-fluid">
-          <a class="navbar-brand text-light fw-bold fs-3" href="#"><img class="mx-3 mt-2" style="height:2.5rem;" src="../images/sbry.png" alt="logo"></a>
+          <a class="navbar-brand text-light fw-bold fs-3" href="#"><img class="mx-5 mt-2" style="height:3rem;" src="../images/sbry.png" alt="logo"></a>
           <div class="dropdown">
             <button
             class="navbar-toggler text-light fs-1"
@@ -42,8 +42,8 @@
                     aria-label="Close"
                   ><i class="fa-sharp fa-solid fa-xmark text-light fs-1"></i></button>
                 </div>
-                <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center text-center">
 
+                <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center text-center">
                     <img class="m-2" style="height:3rem;" src="../images/sbry.png" alt="logo">
                         <p class="text-light m-2 fs-4">Sbry</p >
                         <p class="text-light m-3 fs-5 text-muted">Web Developer</p>
@@ -114,7 +114,7 @@
         </div>
       </nav>
 
-      <div class="container-lg position-fixed small-hidden pt-5" style="width:6rem; height:92vh; background-color: black;" >
+      <div class="container-lg position-fixed small-hidden  neue-box" style="width:8rem; height:85vh; background-color: black;" >
         <div class="col d-flex flex-column justify-content-center align-items-center gap-5 p-4 mt-5" >
             <a class="navbar-brand text-light fw-bold fs-1" href="../index.html"><i class="fas fa-home footer-hover"></i></a>
             <a class="navbar-brand text-light fw-bold fs-1" href="./about.html"><i class="fa-regular fa-id-card footer-hover"></i></a>
@@ -122,30 +122,41 @@
             <a class="navbar-brand text-light fw-bold fs-1" href="./project.html"><i class="fas fa-project-diagram footer-hover"></i></a>
         </div>
     </div>
+    <div class="info-contact"> 
+      <div class="">
+      <p class="text-info fs-1">Contact me</p>
+      <p class="text-light">If you have any reguest or questions, do not hesitate to use the form!</p></div>
+    </div>
+    
 
-      <main class="home py-5 mb-5">
-        <div class="container-lg">
-            <div class="row align-items-center align-content-center">
-               <div class="col-md-6">
-                <div class="home-img text-center">
-                    <img class="rounded-profile" src="../images/mee.jpg" alt="mee img" 
-                                                             style="height: 17rem;
-                                                                    width: 13em;">
-                </div>
-               </div>
-               <div class="d-flex justify-content-center col-md-6 mt-5 mt-md-0 order-md-first">
-                <div class="home-text">
-                    <p class="text-light pt-5 mb-1 fs-1 fw-bold"><span>H</span><span>i</span><span>, </span><span>I</span><span>'</span><span>m</span></p>
-                    <h1 class="text-uppercase bs-font-monospace fst-italic text-info mb-1 fs-6"><span>S</span><span>a</span><span>b</span><span>r</span><span>i</span><span>y</span><span>e</span></h1>
-                    <p class="mb-1 fs-5 text-subtle text-muted"><span>w</span><span>e</span><span>b </span><span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span></p>
-                    
-                </div>
-               </div>
-            </div>
-        </div>
-        <div class="small-hidden" style="height:20rem;"></div>
+<main class="py-2 m-5 form-style ">
+  <div class="">
 
-      </main>
+  <div class="mb-1">
+      <label for="exampleFormControlInput1" class="form-label text-light">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    
+  </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label text-light">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+  </div>
+  <button type="submit" class="btn btn-info mssge">Send message!</button>
+
+  
+
+  <div class="">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79465.14904961255!2d7.400223153309111!3d51.50797049093285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b91760bff07a11%3A0x427f28131548750!2sDortmund!5e0!3m2!1sen!2sde!4v1665056661331!5m2!1sen!2sde"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="maps"
+      ></iframe>
+  </div>
+  <div class="small-hidden" style="height:15rem;"></div>
+  </div>
+</main>
 
       <footer class="footer">
         <div class="container-lg">

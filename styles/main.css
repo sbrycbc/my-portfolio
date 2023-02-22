@@ -10772,7 +10772,7 @@ textarea.form-control-lg {
 }
 
 span:hover {
-  color:#0b5ed7;
+  color:#0dcaf0;
   font-size:larger;
   animation:bubble 4s -1s infinite;
   
@@ -10781,19 +10781,19 @@ span:hover {
 @keyframes bubble {
   0% {text-overflow: ellipsis;
   text-shadow: 2px 2px red;
-  letter-spacing: 5px;
+  letter-spacing: 20px;
   line-height:0.5;
   font-size:3rem;
   }
   25% {text-overflow: clip;
-    text-shadow: 2px 2px blue;
-    letter-spacing: 2px;
+  text-shadow: 2px 2px blue;
+  letter-spacing: 20px;
   line-height:0.7;
   font-size:2.5rem;
   }
   50% {text-overflow: inherit;
   text-shadow: 2px 2px #055160;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   line-height:0.5;
   font-size:2.8rem;
 }
@@ -10857,11 +10857,11 @@ span:hover {
   .rounded-profile {
     border-radius: 0 30% !important;
     width:20rem !important;
-    height:25rem !important;
+    height:29rem !important;
   
   }
   span:hover {
-    color:#0b5ed7 !important;
+    color:#25cff2 !important;
     font-size:larger !important;
     animation:bubble-lg 4s -1s infinite !important;
     
@@ -10905,6 +10905,45 @@ span:hover {
 .font-size-profile {
   font-size:7rem !important;
 }
+
+.neue-box {
+  padding-top:9rem !important;
+  margin-top:2rem !important;
+}
+
+.form-style {
+  /* display: block !important;
+  justify-content: center !important;
+  align-items: center !important; */
+  width: 25rem !important;
+  height: 15rem !important;
+  padding: 7px;
+  background-color: var(--bs-gray-800);
+  border-radius: 15px;
+  margin-top: 2px !important;
+  
+}
+
+.mssge {
+  height: 2rem;
+  margin-left: 15rem !important;
+  padding-top: 0.2rem !important
+}
+ .info-contact {
+  width: 25rem;
+  padding:10px 10px 0 60px;
+ }
+ .maps {
+  width: 25rem  !important;
+  height: 15rem !important;
+  margin-top: 8rem;
+  border-radius: 15px;
+ }
+ 
+  
+
+
+ 
 
 
 
