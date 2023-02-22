@@ -10916,7 +10916,7 @@ span:hover {
   justify-content: center !important;
   align-items: center !important; */
   width: 25rem !important;
-  height: 15rem !important;
+  height: 17rem !important;
   padding: 7px;
   background-color: var(--bs-gray-800);
   border-radius: 15px;
@@ -10926,7 +10926,7 @@ span:hover {
 
 .message {
   height: 2rem;
-  margin-left: 15rem !important;
+  margin-left: 13rem !important;
   padding-top: 0.2rem !important
 }
  .info-contact {
