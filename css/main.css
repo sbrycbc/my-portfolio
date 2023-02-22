@@ -10964,6 +10964,10 @@ visibility: visible !important;
 display:block;
  } */
  
+ .about-text-shadow {
+  color: #202c2d !important;
+  text-shadow: 0 0 10px rgba(255,255,255,.5), 0 0 5px rgba(255,255,255,.5) !important;
+ }
   
 
 
