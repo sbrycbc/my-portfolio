@@ -10968,6 +10968,32 @@ display:block;
   color: #202c2d !important;
   text-shadow: 0 0 10px rgba(255,255,255,.5), 0 0 5px rgba(255,255,255,.5) !important;
  }
+
+.navbar-home:hover {
+  animation: home 1s ease-in-out infinite;
+}
+
+.navbar-about:hover {
+  animation: about 1s ease-in-out infinite;
+}
+
+
+
+@keyframes home {
+  0% { background-color: #bacbe6;
+        width: 0%;}
+  100% {background-color: #bacbe6;
+        width:20%;}
+}
+
+@keyframes about {
+  0% { background-color: #bfe2e9;
+        width: 0%;}
+  100% {background-color:  #bfe2e9;
+        width: 20%;}
+}
+
+
   
 
 
