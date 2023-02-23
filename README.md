@@ -20,11 +20,11 @@
 
 - update script tag of package.json
 
-"scripts": {
-    "start":"run-p watch watch:styles",
-    "watch":"live-server",
-    "watch:styles": "sass scss:styles --watch"
-  },
+            "scripts": {
+             "start":"run-p watch watch:styles",
+            "watch":"live-server",
+            "watch:styles": "sass scss:styles --watch"
+            },
 
 - npm start for creating main.css and main.css.map
 
