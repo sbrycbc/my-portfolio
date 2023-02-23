@@ -4,7 +4,7 @@
 
 # 
 
-- npm init
+-  npm init
 - npm i bootstrap, npm-run-all, sass, live-server
 
 - script : npm start -- run-p watch watch:styles
@@ -13,4 +13,3 @@
 
 - index.html body bootstrap script file
 
-- 
