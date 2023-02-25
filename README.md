@@ -2,6 +2,8 @@
 
 - [My Portfolio](https://sbrycbc.github.io/my-portfolio/ "My Portfolio")
 
+- [My Portfolio - Netlify](https://sbrycbc-my-portfolio.netlify.app/ "My Portfolio Netlify")
+
 # to use bootstrap.scss
 
 - npm init
